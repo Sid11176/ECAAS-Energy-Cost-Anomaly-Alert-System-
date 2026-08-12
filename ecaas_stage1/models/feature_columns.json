@@ -1,0 +1,15 @@
+[
+  "hour_sin",
+  "hour_cos",
+  "doy_sin",
+  "doy_cos",
+  "dayofweek",
+  "is_weekend",
+  "month",
+  "year",
+  "lag_1h",
+  "lag_24h",
+  "lag_168h",
+  "roll_mean_24h",
+  "roll_mean_168h"
+]
