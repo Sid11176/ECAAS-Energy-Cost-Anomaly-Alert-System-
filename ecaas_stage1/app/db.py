@@ -4,7 +4,7 @@ SQLite schema for ECAAS.
 Two tables land here in Stage 1:
 - readings: historical + incoming actual demand values (seeded from the
   cleaned Cebu CSV; Stage 2's POST /reading will insert into this same table)
-- forecast_cache: memoizes forecast() calls so repeated hits for the same
+- forecast_cache: memorizes forecast() calls so repeated hits for the same
   hour don't re-run the model unnecessarily
 
 anomaly_log (Stage 2) and alerts (Stage 5) are intentionally NOT created
